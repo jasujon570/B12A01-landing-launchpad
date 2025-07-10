@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: font-family: "Raleway", sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+/* Shared Styles */
+
+.primary-color {
+    background-color: #4E47FF;
+}
+
+.nav-bar {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 51px;
+    color: #4E47FF;
+    text-transform: uppercase;
+}
+.button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 16px;
+}
