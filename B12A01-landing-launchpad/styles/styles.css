@@ -138,6 +138,10 @@ header {
 
 /* User Feedback Section Styles */
 
+.user-feedback-section {
+    margin-bottom: 137px;
+}
+
 .user-feedback-title {
     font-size: 42px;
     color: #252432;
@@ -193,4 +197,30 @@ header {
 .date {
     color: #B3B3B3;
     line-height: 22px;
+}
+
+
+/* Ready to focus sectin styles */
+
+.ready-to-focus-focus {
+    margin-bottom: 92px;
+    padding: 71px 150px;
+    background-color: #ffffff;
+}
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.focus-sub-title{
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    font-size: 16px;
+}
+.focus-btn {
+    margin: 20px 0;
+}
+.focus-img {
+    border-radius: 48px;
 }
