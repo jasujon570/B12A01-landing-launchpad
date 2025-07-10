@@ -202,7 +202,7 @@ header {
 
 /* Ready to focus sectin styles */
 
-.ready-to-focus-focus {
+.ready-to-focus-section {
     margin-bottom: 92px;
     padding: 71px 150px;
     background-color: #ffffff;
@@ -224,3 +224,56 @@ header {
 .focus-img {
     border-radius: 48px;
 }
+
+
+
+
+/* Get in touch section styles */
+
+
+.get-in-touch-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0;
+    gap: 100px;
+}
+.get-in-touch-content {
+    width: 50%;
+}
+form {
+    width: 50%;
+}
+.get-in-touch-title {
+    font-size: 97px;
+    font-weight: bold;
+    color: black;
+    line-height: 116px;
+}
+
+.get-in-touch-form input[type="email"], input[type="text"], input[type="submit"], textarea{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    padding: 20px 32px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 19px;
+}
+
+.get-in-touch-form label{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.touch-btn {
+    color: white;
+}
+
+
