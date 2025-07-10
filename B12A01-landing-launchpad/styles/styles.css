@@ -100,3 +100,38 @@ header {
 .action-section-img img{
     border-radius: 48px;
 }
+
+/* Productive user section style */
+
+
+.productive-user-section {
+    margin: 116px 0 137px 0;
+    background: rgba(78, 71, 255, 0.1);
+    min-height: 306px;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+
+.productive-user-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.stats-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats-matrics {
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.stats-name {
+    font-size: 20px;
+}
